@@ -1,4 +1,13 @@
-pymongo
-redis
-bcrypt
-pandas
+pymongo # C’est une bibliothèque Python pour utiliser MongoDB
+
+# Stocker des données temporaires (comme les sessions utilisateur)
+
+# Faire du cache
+
+# Gérer des files d’attente
+
+# Compter des visites, des likes, etc.
+
+bcrypt # C’est une bibliothèque de hachage de mots de passe
+
+pandas # C’est une bibliothèque Python pour l’analyse de données

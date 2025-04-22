@@ -1,3 +1,3 @@
 # Fichier d'initialisation du module database
-from .connection import *
+from .connexion import *
 from .seed_data import *

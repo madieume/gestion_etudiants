@@ -14,9 +14,15 @@ def main():
         # Ajouter un étudiant
         pass
     elif choix == "2":
-        # Rechercher un étudiant
+        # Rechercher  un étudiant
         pass
-    elif choix == "3":
+    elif  choix == "3":
+        # Modifier un étudiant
+        pass
+    elif choix == "4":
+        # Supprimer un étudiant
+        pass
+    elif choix == "5":
         print("Quitter")
         exit()
 

@@ -1,10 +1,10 @@
 import unittest
 from app.utils.auth import Auth
-from app.database.connection import DatabaseConnection
+from app.config.connexion import DatabaseConnection
 
 class TestAuth(unittest.TestCase):
     def test_hash_password(self):
-        db_connection = DatabaseConnection('mongo_uri', 'redis_uri')
+        db_connection = DatabaseConnection('mongo_uri')
         auth = Auth(db_connection)
         password = "password123"
         hashed_password = auth.hash_password(password)
